@@ -2,7 +2,7 @@
 
 const aluno = {
 
-  nome: "Lucas Silva",
+  nome: "Thais Maria",
 
   notas: [7.5, 8.0, 9.5],
 
@@ -41,5 +41,6 @@ aluno.notas = [...aluno.notas, 10];
 
 
 console.log(`Notas atualizadas: ${aluno.notas}`);
+
 
 console.log(`Média final: ${aluno.calcularMedia()}`);
